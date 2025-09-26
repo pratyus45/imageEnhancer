@@ -1,0 +1,22 @@
+How to Run the Project (Image Enhancer)
+
+1. Requirements:
+   - Windows system
+   - g++ compiler (MinGW or MSYS2)
+
+2. Compilation Command:
+   g++ imageEnhancer.cpp -o image
+
+3. Run the program:
+   ./image
+
+4. Input:
+   Place your blurred images inside the "images" folder.
+
+5. Output:
+   Enhanced images will be saved inside the "output" folder.
+
+6. Supporting Libraries:
+   - stb_image.h
+   - stb_image_write.h
+   (Already included in this zip file, no installation needed.)
